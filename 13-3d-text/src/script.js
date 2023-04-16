@@ -70,7 +70,7 @@ controls.enableDamping = true;
 // Loading Fonts
 const fontLoader = new FontLoader();
 fontLoader.load("/fonts/helvetiker_regular.typeface.json", (font) => {
-  const textGeometry = new TextGeometry("*** Little Finger ***", {
+  const textGeometry = new TextGeometry("*** Ned Stark ***", {
     font,
     size: 0.5,
     height: 0.2,
